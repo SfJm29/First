@@ -8,6 +8,7 @@ import (
 func gh(nd chan int, d chan bool) {
 	for {
 		//time.Sleep(time.Second * 2)
+		//tttt
 		select {
 		case <-nd:
 			fmt.Println("получил данные")
